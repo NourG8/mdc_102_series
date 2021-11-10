@@ -25,17 +25,19 @@ class _LoginPageState extends State<LoginPage> {
               ],
             ),
             const SizedBox(height: 120.0),
+
             // TODO: Add TextField widgets (101)
-// [Name]
+
             TextField(
               decoration: const InputDecoration(
                 filled: true,
                 labelText: 'Username',
               ),
             ),
-// spacer
+            // spacer
             const SizedBox(height: 12.0),
-// [Password]
+
+            // [Password]
             TextField(
               decoration: const InputDecoration(
                 filled: true,
@@ -43,6 +45,15 @@ class _LoginPageState extends State<LoginPage> {
               ),
               obscureText: true,
             ),
+
+            // TODO: Add button bar (101)
+            ButtonBar(
+              // TODO: Add a beveled rectangular border to CANCEL (103)
+              children: <Widget>[
+                // TODO: Add buttons (101)
+              ],
+            ),
+
           ],
         ),
       ),
