@@ -31,6 +31,7 @@ class _LoginPageState extends State<LoginPage> {
             // TODO: Add TextField widgets (101)
 
             TextField(
+              controller: _usernameController,
               decoration: const InputDecoration(
                 filled: true,
                 labelText: 'Username',
@@ -41,6 +42,7 @@ class _LoginPageState extends State<LoginPage> {
 
             // [Password]
             TextField(
+              controller: _passwordController,
               decoration: const InputDecoration(
                 filled: true,
                 labelText: 'Password',
