@@ -11,6 +11,9 @@ class HomePage extends StatelessWidget {
     // TODO: Pass Category variable to AsymmetricView (104)
     return Scaffold(
       // TODO: Add app bar (102)
+      appBar: AppBar(
+        // TODO: Add buttons and title (102)
+      ),
       // TODO: Add a grid view (102)
       body: Center(
         child: Text('You did it!'),
