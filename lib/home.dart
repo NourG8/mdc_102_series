@@ -106,12 +106,11 @@ class HomePage extends StatelessWidget {
           ),
         ],
       ),
-      // TODO: Add a grid view (102)
       body: GridView.count(
           crossAxisCount: 2,
           padding: const EdgeInsets.all(16.0),
           childAspectRatio: 8.0 / 9.0,
-          children: _buildGridCards(10) // Replace
+          children: _buildGridCards(context) // Changed code
       ),
       body: Center(
         child: Text('You did it!'),
