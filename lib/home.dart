@@ -113,9 +113,6 @@ class HomePage extends StatelessWidget {
           childAspectRatio: 8.0 / 9.0,
           children: _buildGridCards(context) // Changed code
       ),
-      body: Center(
-        child: Text('You did it!'),
-      ),
       // TODO: Set resizeToAvoidBottomInset (101)
       resizeToAvoidBottomInset: false,
     );
